@@ -17,6 +17,9 @@ public class RockPaperScissorsLizardSpock {
 
         String compPlay = getCompPlay();
 
+        System.out.println("You chose: " + playersPlay);
+        System.out.println("The computer's choice is: " + compPlay);
+
         winConditions(playersPlay, compPlay);
     }
 
